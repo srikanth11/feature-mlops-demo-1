@@ -1,0 +1,28 @@
+steps:
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['build', '-t', 'gcr.io/tensile-nebula-406509/my-image:latest', '.']
+    timeout: '9,000'
+
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['run', 'gcr.io/tensile-nebula-406509/my-image:latest']
+    timeout: '9,000'
+
+
+  # - name: python
+  #   entrypoint: python
+  #   args: ["-m", "pip", "install", "--upgrade", "pip"]
+
+  # - name: python
+  #   entrypoint: python
+  #   args: ["-m", "pip", "install", "-r", "requirements.txt"]
+
+  # - name: python
+  #   entrypoint: python3
+  #   args: ["-m", "pip", "list"]
+
+  # - name: python
+  #   entrypoint: python
+  #   args: ["train_deploy.py"]
+
+options:
+  logging: CLOUD_LOGGING_ONLY

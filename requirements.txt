@@ -1,0 +1,12 @@
+google-api-python-client
+sendgrid
+pytz
+python_http_client
+pandas
+google
+google-api-core
+google-cloud
+google-cloud-vision
+google-cloud-storage
+google-cloud-aiplatform
+google-cloud-translate

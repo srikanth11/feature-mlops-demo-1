@@ -1,0 +1,13 @@
+{
+    "from_email": "srikanth.bashaboina11@gmail.com",
+    "to_emails": "srikanth.bashaboina11@gmail.com",
+    "project_id": "tensile-nebula-406509",
+    "region": "us-central1",
+    "endpoint_id": "2120476343886938112",
+    "bucket_name": "output_buk",
+    "optimization_prediction_type": "classification",
+    "parent_model": "4701210454184165376",
+    "machine_type": "n1-standard-2",
+    "mail_api_key": "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",
+    "model_display_name":"my-automl-model"
+}
