@@ -1,11 +1,11 @@
 steps:
   - name: 'gcr.io/cloud-builders/docker'
     args: ['build', '-t', 'gcr.io/tensile-nebula-406509/my-image:latest', '.']
-    timeout: '9,000s'
+    timeout: '9000s'
 
   - name: 'gcr.io/cloud-builders/docker'
     args: ['run', 'gcr.io/tensile-nebula-406509/my-image:latest']
-    timeout: '9,000s'
+    timeout: '9000s'
 
 
   # - name: python
